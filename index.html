@@ -39,19 +39,6 @@ button { font: inherit; cursor: pointer; border: none; background: none; }
   margin: 0 auto;
 }
 
-/* Top bar */
-.topbar {
-  background: var(--dark);
-  color: #EDE8DD;
-  font-size: 12px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  padding: 10px 0;
-  text-align: center;
-  border-bottom: 1px solid rgba(197, 160, 89, 0.25);
-}
-.topbar span { color: var(--gold); margin: 0 10px; }
-
 /* Header */
 header {
   position: sticky;
@@ -877,10 +864,6 @@ a:focus-visible, button:focus-visible {
 header {
   box-shadow: 0 8px 24px rgba(34, 43, 29, 0.045);
 }
-.topbar {
-  font-size: 11px;
-  letter-spacing: 0.08em;
-}
 .nav-links a {
   position: relative;
   padding: 8px 0;
@@ -1005,7 +988,6 @@ footer {
 }
 
 @media (max-width: 680px) {
-  .topbar { font-size: 9px; letter-spacing: 0.04em; }
   .nav-links, .phone-block { display: none; }
   .nav { height: 72px; gap: 8px; }
   .brand { gap: 8px; min-width: 0; }
@@ -1053,9 +1035,6 @@ footer {
 </style>
 </head>
 <body>
-<div class="topbar">
-<span>✳</span> Плов из казана · шашлык с огня · самовывоз ежедневно с 10:00 до 23:00 <span>✳</span>
-</div>
 <header>
 <div class="wrap nav">
 <a class="brand" href="#">
